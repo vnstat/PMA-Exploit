@@ -1,0 +1,89 @@
+wget http://search.cpan.org/CPAN/authors/id/D/DL/DLUX/Parallel-ForkManager-0.7.5.tar.gz
+tar -xvf Para*
+cd Para*
+perl Makefile.PL
+make
+make install
+cd ../
+rm -rf Para*
+
+wget http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/libwww-perl-6.05.tar.gz
+tar -xvf libwww-*
+cd libwww*
+perl Makefile.PL
+make
+make install
+cd ../
+rm -rf libwww-*
+
+wget http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Message-6.06.tar.gz
+tar -xvf HTTP-Message*
+cd HTTP-Message*
+perl Makefile.PL
+make
+make install
+cd ../
+rm -rf HTTP-Message-*
+
+wget http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/URI-1.60.tar.gz
+tar -xvf URI-*
+cd URI-*
+perl Makefile.PL
+make
+make install
+cd ../
+rm -rf URI-*
+
+wget http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz
+tar -xvf HTTP-Date-*
+cd HTTP-Date-*
+perl Makefile.PL
+make
+make install
+cd ../
+rm -rf HTTP-Date-*
+
+wget http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/Encode-Locale-1.03.tar.gz
+tar -xvf Encode-Locale*
+cd Encode-Locale*
+perl Makefile.PL
+make
+make install
+cd ../
+rm -rf Encode-Locale*
+
+wget http://search.cpan.org/CPAN/authors/id/M/MS/MSCHILLI/Net-HTTP-6.07.tar.gz
+tar -xvf Net-HTTP-*
+cd Net-HTTP-*
+perl Makefile.PL
+make
+make install
+cd ../
+rm -rf Net-HTTP-*
+
+wget http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
+tar -xvf HTTP-Cookies-*
+cd HTTP-Cookies-*
+perl Makefile.PL
+make
+make install
+cd ../
+rm -rf HTTP-Cookies-*
+
+wget http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTML-Parser-3.71.tar.gz
+tar -xvf HTML-Parser-*
+cd HTML-Parser-*
+perl Makefile.PL
+make
+make install
+cd ../
+rm -rf HTML-Parser-*
+
+wget http://search.cpan.org/CPAN/authors/id/Z/ZE/ZEFRAM/Time-HiRes-1.9726.tar.gz
+tar -xvf Time-HiRes*
+cd Time-HiRes*
+perl Makefile.PL
+make
+make install
+cd ../
+rm -rf Time-HiRes*
